@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Cavaliere Angelo</title>
+		
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+	</head>
+	<body>
+		<ul>
+			<li><a href="sobre.html">Home</a></li>
+			<li><a href="enredo.html">Enredo</a></li>
+			<li><a href="personagens.html">Personagens</a></li>
+			<li><a href="chefes.html" class="ativo">Chefes</a></li>
+			<li><a href="bestiario.html">Bestiario</a></li>
+		</ul>
+		
+		<br>
+		
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/wnP8mkVZTPw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+		<div class="caixa">
+		<h1>Cavaliere Angelo</h1>
+		
+		<div class="w3-content w3-display-container" align="center">
+  <img class="mySlides" src="images/Cavaliere_Angelo_1.jpg" style="width:100%">
+  <img class="mySlides" src="images/Cavaliere_Angelo_2.jpg" style="width:100%">
+  <img class="mySlides" src="images/Cavaliere_Angelo_3.jpg" style="width:100%">
+  <img class="mySlides" src="images/Cavaliere_Angelo_4.jpg" style="width:100%">
+  <img class="mySlides" src="images/Cavaliere_Angelo_5.jpg" style="width:75%">
+
+
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+			<p>É um demônio artificial que foi projetado para ser um upgrade do original Nelo Angelo. Mais tarde, é revelado que Trish está sendo usado como seu núcleo. O poder do demônio mais tarde se torna uma arma para Dante na forma de uma moto que se transforma numa buzzsaw, liberando Trish no processo.</p>
+			<p>Cavaliere Angelo é um demônio humanóide alto e alado, com dois chifres e olhos roxos brilhantes. Todo o seu corpo é coberto com armaduras negras, com suas grandes asas, quando dobradas, atuam como um escudo e capa sobre o ombro.</p>
+				<h2>Relatos de Nico – Cavaliere Angelo</h2>
+					<p>Seja qual for a feitiçaria que tenha inventado o Anjo Negro original, alguém esteve muito ocupado, aperfeiçoando-o para fazer esse sujeito.</p>
+					<p>Escudos retráteis embutidos nos dois braços? É ataque e defesa em um único pacote! E com aquela garota demônio Trish preso dentro, ele pode lançar raios em sua cara também. Deixa eu te dizer, eu tenho muito respeito pelo design!</p>
+</div>
+
+<footer>
+  <p>Fan page de Devil My Cry 5, todos os direitos reservados a CAPCOM</p>
+</footer>
+
+	</body>
+
+</html>

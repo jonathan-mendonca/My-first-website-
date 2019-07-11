@@ -1,0 +1,156 @@
+html {
+
+	background: url(images/logo_3.jpg) no-repeat center fixed;
+	background-size:cover;
+	}
+
+ul {
+	position: fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+  z-index:1;
+  top: 0;
+  width: 100%
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.ativo {
+  background-color: #800000;
+}
+
+.caixa {
+  background-color: lightgrey;
+  width: 750px;
+  border: 2px solid black;
+  padding: 50px;
+  margin: auto;
+  margin-top: 55px;
+  opacity: 0.9;
+  filter: alpha(opacity=30)
+  
+   
+}
+
+.caixa2 {
+  background-color: lightgrey;
+  width: 750px;
+  border: 2px solid black;
+  padding: 50px;
+  margin: 20px;
+  opacity: 0.9;
+  filter: alpha(opacity=30);
+  img-opacity: 1.0;
+}
+
+
+
+/* Galeria */
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 235px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Galeria */
+
+div.gallery2 {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 200px;
+}
+
+div.gallery2:hover {
+  border: 1px solid #777;
+}
+
+div.gallery2 img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* videos */
+
+iframe {
+	margin: auto;
+	margin-left: 30%;
+	margin-right: 30%;
+	  margin-top: 55px;
+
+}
+
+iframe.tres {
+margin:  auto;
+  margin-top: 55px;
+  margin-left:45px;
+width: 45%;
+
+
+}
+
+/* links ancorados */
+a:link.list {
+  color: black;
+  text-decoration: none;
+
+}
+a:visited.list {
+  color: black;
+  text-decoration: none;
+ 
+}
+a:hover.list {
+  color: black;
+  text-decoration: none;
+
+}
+a:active.list {
+  color: black;
+  text-decoration: none;
+
+}
+
+footer {
+  background-color: #800000;
+  margin-top: 5px;
+  padding: 2px;
+  font-size: 80%;
+  text-align: center;
+  color: white;
+}
+

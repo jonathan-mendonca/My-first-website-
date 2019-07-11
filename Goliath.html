@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Goliath</title>
+		
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+	</head>
+	<body>
+		<ul>
+			<li><a href="sobre.html">Home</a></li>
+			<li><a href="enredo.html">Enredo</a></li>
+			<li><a href="personagens.html">Personagens</a></li>
+			<li><a href="chefes.html" class="ativo">Chefes</a></li>
+			<li><a href="bestiario.html">Bestiario</a></li>
+		</ul>
+		
+		<br>
+		
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/Q43G1mC-TvE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+		<div class="caixa">
+		<h1>Goliath</h1>
+		
+		<div class="w3-content w3-display-container" align="center">
+  <img class="mySlides" src="images/Goliath_1.jpg" style="width:100%">
+  <img class="mySlides" src="images/Goliath_2.jpg" style="width:100%">
+  <img class="mySlides" src="images/Goliath_3.jpg" style="width:100%">
+  <img class="mySlides" src="images/Goliath_4.jpg" style="width:100%">
+  <img class="mySlides" src="images/Goliath_5.jpg" style="width:43%; ">
+
+
+
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+			<p>Goliath aparece como uma grande fera humanóide com chifres e quatro olhos vermelhos na cabeça. Seu estômago está coberto de muitos olhos amarelos, bem como grandes mandíbulas capazes de devorar objetos, como carros, e transformá-lo em uma bola de fogo.</p>
+				<h2>Relatos de Nico –  Goliath</h2>
+					<p>Este demônio se chama Golias. Adoro quando eles apenas aparecem e dizem o nome deles, torna meu trabalho muito mais fácil.</p>
+					<p>De qualquer forma, quando você vê um demônio musculoso como este, você pode garantir que ele vai ser burro como um saco de costeletas de porco.</p>
+					<p>Ainda assim, aquela barriga deformada é uma coisa impressionante. Arrastando a porcaria toda e superaquecendo-a numa bola de fogo do inferno? Isso tem potencial. Me Deu algumas ideias para expandir o arsenal. Então eu acho que nós devemos um obrigado a este primata.</p>
+					
+					
+</div>
+
+<footer>
+  <p>Fan page de Devil My Cry 5, todos os direitos reservados a CAPCOM</p>
+</footer>
+
+	</body>
+
+</html>

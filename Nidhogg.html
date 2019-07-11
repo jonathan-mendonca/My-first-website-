@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Nidhogg</title>
+
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+	</head>
+	<body>
+	
+		<ul>
+			<li><a href="sobre.html">Home</a></li>
+			<li><a href="enredo.html">Enredo</a></li>
+			<li><a href="personagens.html">Personagens</a></li>
+			<li><a href="chefes.html" class="ativo">Chefes</a></li>
+			<li><a href="bestiario.html">Bestiario</a></li>
+		</ul>
+		
+		<br>
+		
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/C5GbXDOSz00" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+		<div class="caixa">
+		<h1>Nidhogg</h1>
+		
+		<div class="w3-content w3-display-container" align="center">
+  <img class="mySlides" src="images/Nidhogg_3.jpg" style="width:100%">
+  <img class="mySlides" src="images/Nidhogg_2.jpg" style="width:100%">
+  <img class="mySlides" src="images/Nidhogg_1.jpg" style="width:100%">
+  <img class="mySlides" src="images/Nidhogg_4.jpeg" style="width:85%">
+  <img class="mySlides" src="images/Nidhogg_5.jpg" style="width:100%">
+
+
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+			<p>Nidhogg é uma forma de vida parasita demoníaca que se liga à árvore Qliphoth em Red Grave City, a fim de se alimentar da força vital que a árvore demoníaca está coletando.</p>
+				<h2>Relatos de Nico – Nidhogg</h2>
+					<p>Segundo V, esta coisa estava vivendo simbioticamente com a Qliphoth, um parasita entre as videiras.</p>
+					<p>Com todo esse sangue correndo pela Qliphoth, se imagina que algo iria pegar uma carona.</p>
+					<p>Seu núcleo humanóide seria fraco para atacar se não fosse por todos os braços semelhantes a tentáculos que ele pode girar para se defender.</p>
+					<p>Além disso, ele pode se esconder dentro do Qliphoth para se manter seguro. Se você quiser matá-lo, você tem que encontrar uma maneira de arrastá-lo chutando e gritando para o céu aberto.</p>
+					<p>Ah, e a propósito... essa coisa é tão idiota quanto aparenta ser.</p>
+</div>
+
+<footer>
+  <p>Fan page de Devil My Cry 5, todos os direitos reservados a CAPCOM</p>
+</footer>
+
+	</body>
+
+</html>

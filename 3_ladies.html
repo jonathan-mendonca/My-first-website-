@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>3 Ladies</title>
+		
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+
+	</head>
+	<body>
+	
+		<ul>
+			<li><a href="sobre.html" >Home</a></li>
+			<li><a href="enredo.html">Enredo</a></li>
+			<li><a href="personagens.html" class="ativo">Personagens</a></li>
+			<li><a href="chefes.html">Chefes</a></li>
+			<li><a href="bestiario.html">Bestiario</a></li>
+		</ul>
+		
+		<div class="caixa">
+		
+		<h1>Nico</h1>
+		<h2>Artesã de Armas</h2>
+		
+		<div class="w3-content w3-display-container" align="center">
+  <img class="mySlides1" src="images/nico_1.jpg" style="width:100%">
+  <img class="mySlides1" src="images/nico_2.jpg" style="width:43%">
+  <img class="mySlides1" src="images/nico_3.png" style="width:31%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
+</div>
+	
+
+			<p>A autoproclamada “artesã de armas” unindo-se ao Nero. Sua avó era Nell Goldstein, a lendária armeiro. Ela cria os Devil Breakers que substituem o braço perdido de Nero.</p>
+		
+		<h2>Divisão móvel de "Devil May Cry"  DMC  Motorhome</h2>
+		
+		<div class="w3-content w3-display-container" align="center">
+  <img class="mySlides2" src="images/DMC_van_1.jpg" style="width:100%">
+  <img class="mySlides2" src="images/DMC_van_2.png" style="width:100%">
+  <img class="mySlides2" src="images/DMC_van_3.jpeg" style="width:100%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 1)">&#10095;</button>
+</div>
+			<p>Um grande trailer foi remodelado para o alojamento e transporte de Nico. "Devil May Cry" brilha em néon ao lado, um presente de Dante. Chame-a de qualquer linha telefônica em funcionamento e ela virá correndo, permitindo que você adquira Devil Breakers e habilidades das armas oficina de desenvolvimento no motorhome.</p>
+			
+		<h1>Trish</h1>
+		<h2>Fiendish Femme Fatale</h2>
+		
+		<div class="w3-content w3-display-container" align="center">
+  <img class="mySlides3" src="images/trish_1.png" style="width:21%">
+  <img class="mySlides3" src="images/trish_2.jpg" style="width:33%">
+  <img class="mySlides3" src="images/trish_3.png" style="width:100%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 2)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 2)">&#10095;</button>
+</div>
+
+
+			<p>Um demônio atraente parecendo a mãe de Dante, Eva, na aparência. Outrora uma inimiga de Dante, ela mudou seus modos quando ele salvou sua vida, tornando-se uma espécie de parceira do Devil Hunter. Inconstante por natureza, a natureza exata de seu relacionamento permanece um mistério.</p>
+			
+		<h1>Lady</h1>
+		<h2>Caçadora armada de aluguel</h2>
+		
+		<div class="w3-content w3-display-container" align="center">
+  <img class="mySlides4" src="images/lady_1.jpg" style="width:100%">
+  <img class="mySlides4" src="images/lady_2.png" style="width:21%">
+  <img class="mySlides4" src="images/lady_3.jpg" style="width:100%">
+  <img class="mySlides4" src="images/trish_and_lady.jpg" style="width:100%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 3)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 3)">&#10095;</button>
+</div>	
+
+			<p>Lady conheceu Dante durante um incidente no passado deles, e depois de muitas reviravoltas ela se juntou a ele no negócio de caça a demoniôs.</p>
+			<p>Uma mulher de negócios de ponta a ponta, ela pode ser observada forçando trabalhos não-lucrativos para os outros e recebendo uma taxa pelo seu problema.</p>
+ 
+ <script>
+var slideIndex = [1,1,1,1];
+var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"]
+
+showDivs(1, 0);
+showDivs(1, 1);
+showDivs(1, 2);
+showDivs(1, 3);
+
+function plusDivs(n, no) {
+  showDivs(slideIndex[no] += n, no);
+}
+
+function showDivs(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+ 
+</div>
+
+<footer>
+  <p>Fan page de Devil My Cry 5, todos os direitos reservados a CAPCOM</p>
+</footer>
+
+	</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Vergil</title>
+		
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+	</head>
+	<body>
+	
+		<ul>
+			<li><a href="sobre.html">Home</a></li>
+			<li><a href="enredo.html">Enredo</a></li>
+			<li><a href="personagens.html">Personagens</a></li>
+			<li><a href="chefes.html" class="ativo">Chefes</a></li>
+			<li><a href="bestiario.html">Bestiario</a></li>
+		</ul>
+		
+		<br>
+		
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/XZ5GvSwX5Kk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+		<div class="caixa">
+		
+		<h1>Vergil</h1>
+		
+		<div class="w3-content w3-display-container" align="center">
+  <img class="mySlides" src="images/Vergil_1.jpg" style="width:100%">
+  <img class="mySlides" src="images/Vergil_2.jpg" style="width:100%">
+  <img class="mySlides" src="images/Vergil_3.jpg" style="width:100%">
+  <img class="mySlides" src="images/Vergil_4.jpg" style="width:42%">
+  <img class="mySlides" src="images/Vergil_5.jpg" style="width:100%">
+  <img class="mySlides" src="images/Vergil_6.jpeg" style="width:100%">
+  <img class="mySlides" src="images/Vergil_7.jpg" style="width:100%">
+
+
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+			<p>Vergil é o filho gêmeo mais velho nascido do demônio Sparda e da humana Eva. É o antagonista final de Devil May Cry 5. Após a morte de sua mãe quando crianças , Vergil e Dante seguem caminhos separados, com Vergil rejeitando sua humanidade e abraçando sua herança demoníaca, contrastando o abraço da humanidade do irmão mais novo e a rejeição inicial do lado demoníaco. Estóico e reservado, Vergil demonstra disposição para fazer qualquer coisa em sua busca para obter o poder de seu pai, Sparda.</p>
+				<h2>Relatos de Nico – Vergil</h2>
+					<p>Filho do lendário cavaleiro das trevas e irmão de Dante.</p>
+					<p>Lady diz que ele uma vez perdeu para Dante e foi lançado para as profundezas do submundo.</p>
+					<p>Mais tarde, ele usou sua espada, a Yamato, em si mesmo, usando seu poder para separar demônio de humano e assim cortar tudo o que estava segurando seu lado demoníaco.</p>
+					<p>Então V foi a humanidade que ele deixou no esquecimento… Bem, eles estão juntos novamente agora. Os dias enfraquecidos de Vergil acabaram.</p>
+				<h2>Relatos de Nico – Devil Trigger Vergil</h2>
+					<p>A verdadeira forma de Vergil. Ele sempre pensou que sua humanidade estava o impedindo de liberar todo o seu potencial. Bem, ele com certeza descobriu como controlar seu poder demoníaco agora.</p>
+					<p>Acho que esta é a recompensa pelo seu tempo sendo Urizen.</p>
+					<p>Nesta forma Yamato, a fonte de seu poder, é armazenada em seus braços. Talvez esta seja a verdadeira forma da Yamato também.</p>
+</div>
+
+<footer>
+  <p>Fan page de Devil My Cry 5, todos os direitos reservados a CAPCOM</p>
+</footer>
+
+	</body>
+
+</html>
